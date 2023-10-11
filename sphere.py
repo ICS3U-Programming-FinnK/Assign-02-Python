@@ -12,8 +12,8 @@ def main():
     radius = float(input("Enter the radius of the sphere (cm): "))
 
     # terminal calculates the area and volume of the sphere
-    surface_area = 4 * constants.PI * radius * 2
-    volume = 4 / 3 * constants.PI * radius * 4
+    surface_area = 4 * constants. PI * radius ** 2
+    volume = 4 / 3 * constants. PI * radius ** 3
     # terminal displays the surface area and volume of the sphere
     print("")
     print("The Surface Area is = {} cm^2".format(surface_area))
